@@ -6,7 +6,7 @@ input[type="text"]::placeholder {
   color: rgba(6, 7, 14, 0.25);
 }
 section {
-  background: #f2f5ea;
+  background: #ffffff;
 }
 nav {
   background: white;
@@ -77,7 +77,7 @@ tbody tr td {
   height: 18.75rem;
 }
 .user-info {
-  height: 14.375rem;
+  height: 14rem;
 }
 .tbody tr:nth-child(even) {
   background: rgba(239, 229, 249, 0.45);
@@ -88,11 +88,20 @@ tbody tr td {
 .activeText {
   color: #690fad;
 }
+.bg-active{
+  background: #690FAD;
+}
 .acceptedText {
   color: #caa8f5;
 }
+.bg-accepted{
+  background: #CAA8F5;
+}
 .inviteText {
-  color: rgba(6, 7, 14, 0.25);
+  color: rgba(202, 168, 245, 0.4)
+}
+.bg-invite{
+  background: rgba(202, 168, 245, 0.4)
 }
 .tooltipText::after {
   content: "";
