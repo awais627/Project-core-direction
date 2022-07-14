@@ -1,0 +1,110 @@
+.dashboard_container {
+  margin: 0 auto;
+  max-width: 1445px;
+}
+input[type="text"]::placeholder {
+  color: rgba(6, 7, 14, 0.25);
+}
+section {
+  background: #f2f5ea;
+}
+nav {
+  background: white;
+}
+.notification-count {
+  background: #690fad;
+}
+.notification-img {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+.sectionContent {
+  min-height: calc(100vh - 60px);
+}
+.search {
+  background: #fffffa;
+  border: 1px solid rgba(6, 7, 14, 0.25);
+  border-radius: 40px;
+}
+aside {
+  font-family: "Work Sans", sans-serif;
+  background: #690fad;
+  border-radius: 0 6px 0 0;
+  width: 19%;
+}
+.aside-list a:hover {
+  background: linear-gradient(
+    89.25deg,
+    #7812c6 15.18%,
+    rgba(93, 13, 153, 0.65) 100%
+  );
+}
+.stats-section {
+  width: 81%;
+}
+.graph {
+  height: 23.25rem;
+}
+.stats-left {
+  width: 70%;
+}
+.stats-right {
+  width: 30%;
+}
+.date {
+  background: #caa8f5;
+  color: #690fad;
+}
+.navActive {
+  background: linear-gradient(
+    180deg,
+    #7812c6 15.11%,
+    rgba(93, 13, 153, 0.65) 100%
+  );
+}
+table {
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.1);
+}
+thead tr th:first-child,
+tbody tr td:first-child {
+  width: 4rem;
+}
+thead tr th:nth-child(2),
+tbody tr td:nth-child(2) {
+  width: 15rem;
+}
+thead tr th,
+tbody tr td {
+  width: 7rem;
+}
+.tbody {
+  height: 18.75rem;
+}
+.user-info {
+  height: 14.375rem;
+}
+.tbody tr:nth-child(even) {
+  background: rgba(239, 229, 249, 0.45);
+}
+.user-info ul li:nth-child(even) {
+  background: rgba(239, 229, 249, 0.45);
+}
+.activeText {
+  color: #690fad;
+}
+.acceptedText {
+  color: #caa8f5;
+}
+.inviteText {
+  color: rgba(6, 7, 14, 0.25);
+}
+.tooltipText::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 5px;
+  border: 8px solid;
+  border-color: transparent transparent black transparent;
+}
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
