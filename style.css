@@ -31,7 +31,7 @@ aside {
   border-radius: 0 6px 0 0;
   width: 19%;
 }
-.aside-list a:hover {
+.aside-list a:hover,.hide-btn a:hover {
   background: linear-gradient(
     89.25deg,
     #7812c6 15.18%,
@@ -48,7 +48,7 @@ aside {
   width: 70%;
 }
 .stats-right {
-  width: 30%;
+  width: 28%;
 }
 .date {
   background: #caa8f5;
@@ -60,9 +60,6 @@ aside {
     #7812c6 15.11%,
     rgba(93, 13, 153, 0.65) 100%
   );
-}
-table {
-  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.1);
 }
 thead tr th:first-child,
 tbody tr td:first-child {
