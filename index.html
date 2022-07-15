@@ -11,299 +11,425 @@
   </head>
 
   <body>
-    <div class="dashboard_container mx-auto w-full h-screen">
-      <section class="w-full">
-        <nav class="flex justify-between items-center py-2 px-8 stats-shadow">
-          <a><img src="assets/images/navbar/logo.svg" alt="logo" /></a>
-          <div class="flex justify-evenly items-center w-2/5 text-xs">
-            <div class="search flex h-9 w-8/12">
-              <input
-                class="input mx-4 outline-0 border-0 w-5/6"
-                type="text"
-                placeholder="Search . . . "
-              />
-              <img
-                src="assets/images/navbar/search.svg"
-                alt="logo"
-                width="17"
-              />
-            </div>
-            <div
-              class="notification-img flex items-center justify-center relative h-10 w-10 rounded-full"
-            >
-              <a
-                ><img src="assets/images/navbar/bell.svg" alt="bell" />
-                <span
-                  class="notification-count flex items-center justify-center font-medium text-xxs text-white rounded-full absolute h-4 w-4 top-0 right-0"
-                  >88</span
-                >
-              </a>
-            </div>
-            <a
-              ><img
-                class="w-10 h-10 rounded-full"
-                src="/assets/images/user/user6.png"
-                alt="user"
-            /></a>
+    <section class="dashboard_container">
+      <nav class="flex justify-between items-center py-2 px-8 stats-shadow">
+        <a><img src="assets/images/navbar/logo.svg" alt="logo" /></a>
+        <div class="flex justify-evenly items-center w-2/5 text-xs">
+          <div class="search flex h-9 w-8/12">
+            <input
+              class="input mx-4 outline-0 border-0 w-5/6"
+              type="text"
+              placeholder="Search . . . "
+            />
+            <img src="assets/images/navbar/search.svg" alt="logo" width="17" />
           </div>
-        </nav>
-        <div class="sectionContent flex w-full">
-          <aside
-            class="py-10 text-base font-medium flex flex-col justify-between"
+          <div
+            class="notification-img flex items-center justify-center relative h-10 w-10 rounded-full"
           >
-            <div>
-              <div class="mt-2 date text-center">21 june 2022</div>
-              <div
-                class="aside-list text-white mt-4 flex flex-col justify-between"
+            <a
+              ><img src="assets/images/navbar/bell.svg" alt="bell" />
+              <span
+                class="notification-count flex items-center justify-center font-medium text-xxs text-white rounded-full absolute h-4 w-4 top-0 right-0"
+                >88</span
               >
-                <ul>
-                  <li>
-                    <a
-                      class="flex items-center navActive pl-6 py-2 my-3"
-                      href="#"
-                    >
-                      <img
-                        src="assets/images/aside/dashboard.svg"
-                        alt="dashboard"
-                      />
-                      <span class="mx-3">Dashboard</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="flex items-center pl-6 py-2 my-2" href="#">
-                      <img src="assets/images/aside/user.svg" alt="user" />
-                      <span class="mx-3">Groups</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="flex items-center pl-6 py-2 my-2" href="#">
-                      <img src="assets/images/aside/check.svg" alt="check" />
-                      <span class="mx-3">Gamification</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="flex items-center pl-6 py-2 my-2" href="#">
-                      <img src="assets/images/aside/dollar.svg" alt="dollar" />
-                      <span class="mx-3">Package Creation</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="flex items-center pl-6 py-2 my-2" href="#">
-                      <img src="assets/images/aside/clock.svg" alt="clock" />
-                      <span class="mx-3">Activity Scheduling</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="flex items-center pl-6 py-2 my-2" href="#">
-                      <img
-                        src="assets/images/aside/Group 1.svg"
-                        alt="management"
-                      />
-                      <span class="mx-3">Attendance Management</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="flex items-center pl-6 py-2 my-2" href="#">
-                      <img
-                        src="assets/images/aside/Layer 1.svg"
-                        alt="reports"
-                      />
-                      <span class="mx-3">Reports</span>
-                    </a>
-                  </li>
-                </ul>
+            </a>
+          </div>
+          <a
+            ><img
+              class="w-10 h-10 rounded-full"
+              src="/assets/images/user/user6.png"
+              alt="user"
+          /></a>
+        </div>
+      </nav>
+      <div class="sectionContent flex">
+        <aside
+          class="py-12 text-base font-medium flex flex-col justify-between"
+        >
+          <div>
+            <p class="date text-center mb-4">21 june 2022</p>
+            <ul class="flex flex-col aside-list text-white">
+              <li>
+                <a class="flex pl-6 py-2 my-3 navActive" href="#">
+                  <img
+                    src="assets/images/aside/dashboard.svg"
+                    alt="dashboard"
+                  />
+                  <span class="mx-3">Dashboard</span>
+                </a>
+              </li>
+              <li>
+                <a class="flex pl-6 py-2 my-2" href="#">
+                  <img src="assets/images/aside/user.svg" alt="user" />
+                  <span class="mx-3">Groups</span>
+                </a>
+              </li>
+              <li>
+                <a class="flex pl-6 py-2 my-2" href="#">
+                  <img src="assets/images/aside/check.svg" alt="check" />
+                  <span class="mx-3">Gamification</span>
+                </a>
+              </li>
+              <li>
+                <a class="flex pl-6 py-2 my-2" href="#">
+                  <img src="assets/images/aside/dollar.svg" alt="dollar" />
+                  <span class="mx-3">Package Creation</span>
+                </a>
+              </li>
+              <li>
+                <a class="flex pl-6 py-2 my-2" href="#">
+                  <img src="assets/images/aside/clock.svg" alt="clock" />
+                  <span class="mx-3">Activity Scheduling</span>
+                </a>
+              </li>
+              <li>
+                <a class="flex pl-6 py-2 my-2" href="#">
+                  <img src="assets/images/aside/Group 1.svg" alt="management" />
+                  <span class="mx-3">Attendance Management</span>
+                </a>
+              </li>
+              <li>
+                <a class="flex pl-6 py-2 my-2" href="#">
+                  <img src="assets/images/aside/Layer 1.svg" alt="reports" />
+                  <span class="mx-3">Reports</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="hide-btn">
+            <a class="flex items-center py-2 pl-6">
+              <img src="assets/images/aside/help.svg" width="25" alt="Help" />
+              <span class="mx-4 text-white text-sm font-normal">Hide</span>
+            </a>
+          </div>
+        </aside>
+        <div class="stats-section flex p-8 pr-10">
+          <div class="stats-left pr-8">
+            <div class="stats-shadow rounded-lg mb-8">
+              <header
+                class="flex justify-between header-bg rounded-t-lg text-white py-1.5 px-8"
+              >
+                <div>
+                  <p class="text-lg font-bold">Top 5 Most Popular</p>
+                  <p class="text-xxs">by Activity type</p>
+                </div>
+                <div class="flex">
+                  <img
+                    class="mx-2 cursor-pointer"
+                    src="/assets/images/header/reset.svg"
+                    alt="reset"
+                    width="15"
+                  />
+                  <img
+                    class="mx-2 cursor-pointer"
+                    src="/assets/images/header/setting.svg"
+                    alt="setting"
+                    width="15"
+                  />
+                </div>
+              </header>
+              <div class="flex flex-col px-8 pb-8 items-center">
+                <div class="text-xs my-5 flex w-full justify-between">
+                  <div class="flex items-center">
+                    <span class="mr-2">This Week</span>
+                    <span class="mr-2">|</span>
+                    <span class="mr-2">This Month</span>
+                    <span class="mr-2">|</span>
+                    <span>This Year</span>
+                  </div>
+                  <div class="flex items-center justify-evenly w-3/5">
+                    <span>Select Date Range</span>
+                    <input
+                      class="dateInput w-32 outline-0 relative border border-black p-1 rounded-xl"
+                      type="date"
+                      value="2022-11-29"
+                    />
+                    <span>To</span>
+                    <input
+                      class="dateInput w-32 outline-0 relative border border-black p-1 rounded-xl"
+                      type="date"
+                      value="2022-10-04"
+                    />
+                  </div>
+                </div>
+                <img
+                  class="h-48"
+                  src="assets/images/progress/graph.png"
+                  alt="graph"
+                />
               </div>
             </div>
-            <div class="hide-btn">
-              <a class="flex items-center py-2 pl-6">
-                <img src="assets/images/aside/help.svg" width="25" alt="Help" />
-                <span class="mx-4 text-white text-sm font-normal">Hide</span>
-              </a>
-            </div>
-          </aside>
-          <div class="stats-section flex mt-4 mr-10">
-            <div class="mx-8 stats-left">
-              <div class="graph my-4 bg-white stats-shadow rounded-lg">
-                <header
-                  class="flex justify-between header-bg rounded-t-lg text-white py-1.5 px-8"
+            <table
+              class="text-xs text-center overflow-hidden rounded-lg stats-shadow"
+            >
+              <thead class="text-white font-bold header-bg block">
+                <tr>
+                  <th scope="col" class="py-3">#</th>
+                  <th scope="col" class="py-3 text-left">Challenge Name</th>
+                  <th scope="col" class="py-3">Participants</th>
+                  <th scope="col" class="py-3">Start Date</th>
+                  <th scope="col" class="py-3">End Date</th>
+                  <th scope="col" class="py-3">
+                    Sort by
+                    <img
+                      class="inline"
+                      src="./assets/images/sort.svg"
+                      alt="sort"
+                    />
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="tbody font-normal block overflow-y-scroll h-72">
+                <tr>
+                  <td class="py-2.5">1</td>
+                  <td class="py-2.5 text-left">Fitness Challenge Aside Bell</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">1</td>
+                  <td class="py-2.5 text-left">20 Minutes Yoga</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">1</td>
+                  <td class="py-2.5 text-left">Daily Soccer Practice</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">2</td>
+                  <td class="py-2.5 text-left">Healthy Diet</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">4</td>
+                  <td class="py-2.5 text-left">Pilates at work</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">5</td>
+                  <td class="py-2.5 text-left">30 Hours Surfing Challenge</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">5</td>
+                  <td class="py-2.5 text-left">Group Meditation</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">5</td>
+                  <td class="py-2.5 text-left">Accessories</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">5</td>
+                  <td class="py-2.5 text-left">Dance at Beach</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">5</td>
+                  <td class="py-2.5 text-left">Accessories</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5">5</td>
+                  <td class="py-2.5 text-left">Dance at Beach</td>
+                  <td class="py-2.5">357</td>
+                  <td class="py-2.5">29 Sep 22</td>
+                  <td class="py-2.5">01 Oct 22</td>
+                  <td class="py-2.5">View More</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="stats-right">
+            <!-- one -->
+            <div class="stats-shadow text-sm p-4 mb-8 rounded-lg">
+              <div class="tooltip relative inline-block cursor-pointer">
+                <img src="/assets/images/info.svg" alt="info" />
+                <span
+                  class="tooltipText mt-2 p-1 text-xxs leading-snug text-white bg-black invisible absolute w-72"
                 >
-                  <div>
-                    <p class="text-lg font-bold">Top 5 Most Popular</p>
-                    <p class="text-xxs">by Activity type</p>
-                  </div>
-                  <div class="flex items-center">
-                    <a><img
-                            class="mx-2"
-                            src="/assets/images/header/reset.svg"
-                            alt="reset"
-                            width="15"
-                    /></a>
-                    <a><img
-                            class="mx-2"
-                            src="/assets/images/header/setting.svg"
-                            alt="setting"
-                            width="15"
-                    /></a>
-                  </div>
-                </header>
-                <div class="px-8">
-                  <div class="text-xs my-5 flex w-full justify-between">
+                  Total number of Invited users as well as the total number of
+                  invited corporate users who have accepted the invite and are
+                  considered active and finally, the total of users based on the
+                  active users who have logged in within the last 30 days.
+                </span>
+              </div>
+              <div class="flex flex-col">
+                <div class="flex justify-center">
+                  <img
+                    class="w-48"
+                    src="assets/images/progress/progress-bar.png"
+                    alt="Progress Circle"
+                  />
+                </div>
+                <div class="py-4 px-2">
+                  <div class="flex justify-between my-1.5">
                     <div class="flex items-center">
-                      <span class="mr-2">This Week</span>
-                      <span class="mr-2">|</span>
-                      <span class="mr-2">This Month</span>
-                      <span class="mr-2">|</span>
-                      <span>This Year</span>
+                      <span class="h-2.5 w-2.5 bg-invite rounded-full"></span>
+                      <span class="font-medium px-3">3,000 Invited</span>
                     </div>
-                    <div class="flex items-center justify-evenly w-3/5">
-                      <span>Select Date Range</span>
-                      <input
-                        class="dateInput w-32 outline-0 relative border border-black p-1 rounded-xl"
-                        type="date"
-                        value="2022-11-29"
-                      />
-                      <span>To</span>
-                      <input
-                        class="dateInput w-32 outline-0 relative border border-black p-1 rounded-xl"
-                        type="date"
-                        value="2022-10-04"
-                      />
-                    </div>
+                    <div class="text-sm font-bold inviteText">100%</div>
                   </div>
-                  <div class="flex justify-center">
-                    <img src="assets/images/progress/graph.png" alt="graph" />
+                  <div class="flex justify-between my-1.5">
+                    <div class="flex items-center">
+                      <span class="h-2.5 w-2.5 bg-accepted rounded-full"></span>
+                      <span class="font-medium px-3">897 Accepted</span>
+                    </div>
+                    <div class="text-sm font-bold acceptedText">29.9%</div>
+                  </div>
+                  <div class="flex justify-between my-1.5">
+                    <div class="flex items-center">
+                      <span class="h-2.5 w-2.5 bg-active rounded-full"></span>
+                      <span class="font-medium px-3">427 Active</span>
+                    </div>
+                    <div class="text-sm font-bold activeText">14.23%</div>
                   </div>
                 </div>
               </div>
-              <div class="w-full mt-8">
-                <table
-                  class="text-xs text-center overflow-hidden rounded-lg w-full stats-shadow "
-                >
-                  <thead class="text-white font-bold header-bg block">
-                    <tr>
-                      <th scope="col" class="py-3">#</th>
-                      <th scope="col" class="py-3 text-left">Challenge Name</th>
-                      <th scope="col" class="py-3">Participants</th>
-                      <th scope="col" class="py-3">Start Date</th>
-                      <th scope="col" class="py-3">End Date</th>
-                      <th scope="col" class="py-3">
-                        Sort by
-                        <img
-                          class="inline"
-                          src="./assets/images/sort.svg"
-                          alt="sort"
-                        />
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody class="tbody font-normal block overflow-y-scroll">
-                    <tr>
-                      <td class="py-2.5">1</td>
-                      <td class="py-2.5 text-left">
-                        Fitness Challenge Aside Bell
-                      </td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">1</td>
-                      <td class="py-2.5 text-left">20 Minutes Yoga</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">1</td>
-                      <td class="py-2.5 text-left">Daily Soccer Practice</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">2</td>
-                      <td class="py-2.5 text-left">Healthy Diet</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">4</td>
-                      <td class="py-2.5 text-left">Pilates at work</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">5</td>
-                      <td class="py-2.5 text-left">30 Hours Surfing Challenge</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">5</td>
-                      <td class="py-2.5 text-left">Group Meditation</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">5</td>
-                      <td class="py-2.5 text-left">Accessories</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">5</td>
-                      <td class="py-2.5 text-left">Dance at Beach</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">5</td>
-                      <td class="py-2.5 text-left">Accessories</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                    <tr>
-                      <td class="py-2.5">5</td>
-                      <td class="py-2.5 text-left">Dance at Beach</td>
-                      <td class="py-2.5">357</td>
-                      <td class="py-2.5">29 Sep 22</td>
-                      <td class="py-2.5">01 Oct 22</td>
-                      <td class="py-2.5">View More</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
             </div>
-            <div class="stats-right">
-              <!-- one -->
-              <div
-                class="stats-shadow text-sm bg-white h-max px-4 pt-4 mt-4 rounded-lg"
+            <!-- two -->
+            <div class="stats-shadow text-xs rounded-lg mb-8">
+              <header
+                class="flex justify-between header-bg py-3 px-4 text-xs text-white text-center font-bold rounded-t-lg"
               >
-                <div class="tooltip relative inline-block cursor-pointer">
+                <span>Top 10 Most Inspiring Employees</span>
+                <img
+                  class="cursor-pointer"
+                  src="/assets/images/header/setting.svg"
+                  alt="setting"
+                />
+              </header>
+              <ul class="user-info h-56 overflow-y-scroll">
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">1</p>
                   <img
-                    class="ml-1.5"
-                    src="/assets/images/info.svg"
-                    alt="info"
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user1.svg"
+                    alt="user"
                   />
+                  <p class="mr-5">Katherine Reynolds</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">2</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user2.svg"
+                    alt="user"
+                  />
+                  <p class="mr-5">Hiba Shiekh</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">3</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user3.svg"
+                    alt="user"
+                  />
+                  <p class="mr-5">Isabela Meced</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">4</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user6.png"
+                    alt="user"
+                  />
+                  <p class="mr-5">Clifford Tindell</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">5</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user1.svg"
+                    alt="user"
+                  />
+                  <p class="mr-5">Katherine Reynolds</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">6</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user1.svg"
+                    alt="user"
+                  />
+                  <p class="mr-5">Katherine Reynolds</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">7</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user2.svg"
+                    alt="user"
+                  />
+                  <p class="mr-5">Hiba Shiekh</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">8</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user3.svg"
+                    alt="user"
+                  />
+                  <p class="mr-5">Isabela Meced</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">9</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user6.png"
+                    alt="user"
+                  />
+                  <p class="mr-5">Clifford Tindell</p>
+                </li>
+                <li class="flex items-center my-1.5 px-5">
+                  <p class="mr-5">10</p>
+                  <img
+                    class="h-7 w-7 rounded-full mr-5"
+                    src="assets/images/user/user1.svg"
+                    alt="user"
+                  />
+                  <p class="mr-5">Katherine Reynolds</p>
+                </li>
+              </ul>
+            </div>
+            <!--three-->
+            <div class="stats-shadow text-xs p-4 rounded-lg">
+              <div class="flex justify-between my-2">
+                <div class="tooltip relative inline-block cursor-pointer">
+                  <img src="/assets/images/info.svg" alt="info" />
                   <span
-                    class="tooltipText mt-1.5 p-1 text-xxs leading-snug text-white bg-black invisible absolute w-72"
+                    class="tooltipText mt-2 p-1 text-xxs leading-snug text-white bg-black invisible absolute w-72"
                   >
                     Total number of Invited users as well as the total number of
                     invited corporate users who have accepted the invite and are
@@ -311,177 +437,26 @@
                     the active users who have logged in within the last 30 days.
                   </span>
                 </div>
-                <div class="flex justify-center">
-                  <div>
-                    <img
-                      src="assets/images/progress/progress-bar.png"
-                      alt="Progress Circle"
-                    />
-                  </div>
-                </div>
-                <div class="py-8 px-2">
-                  <div class="flex justify-between my-1.5">
-                    <div class="flex items-center">
-                      <span class="h-2.5 w-2.5 mr-1 bg-invite rounded-full"></span>
-                      <span class="ml-2 font-medium">3,000 Invited</span>
-                    </div>
-                    <div class="text-sm font-bold inviteText">100%</div>
-                  </div>
-                  <div class="flex justify-between my-1.5">
-                    <div class="flex items-center">
-                      <span class="h-2.5 w-2.5 mr-1 bg-accepted rounded-full"></span>
-                      <span class="ml-2 font-medium">897 Accepted</span>
-                    </div>
-                    <div class="text-sm font-bold acceptedText">29.9%</div>
-                  </div>
-                  <div class="flex justify-between my-1.5">
-                    <div class="flex items-center">
-                      <span class="h-2.5 w-2.5 mr-1 bg-active rounded-full"></span>
-                      <span class="ml-2 font-medium">427 Active</span>
-                    </div>
-                    <div class="text-sm font-bold activeText">14.23%</div>
-                  </div>
-                </div>
-              </div>
-              <!-- two -->
-              <div class="stats-shadow text-xs bg-white mt-8 rounded-lg">
-                <header
-                  class="flex justify-between items-center header-bg py-3 px-4 text-xs text-white text-center font-bold rounded-t-lg"
-                >
-                  <span>Top 10 Most Inspiring Employees</span>
-                  <a><img src="/assets/images/header/setting.svg" alt="setting" /></a>
-                </header>
-                <div class="user-info overflow-y-scroll">
-                  <ul>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">1</p>
-                      <img
-                        class="h-7 w-7 rounded-full mr-5"
-                        src="assets/images/user/user1.svg"
-                        alt="user"
-                      />
-                      <p class="mr-5">Katherine Reynolds</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">2</p>
-                      <img
-                        class="h-7 w-7 rounded-full mr-5"
-                        src="assets/images/user/user2.svg"
-                        alt="user"
-                      />
-                      <p class="mr-5">Hiba Shiekh</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">3</p>
-                      <img
-                        class="h-7 w-7 rounded-full mr-5"
-                        src="assets/images/user/user3.svg"
-                        alt="user"
-                      />
-                      <p class="mr-5">Isabela Meced</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">4</p>
-                      <img
-                        class="h-7 w-7 rounded-full mr-5"
-                        src="assets/images/user/user6.png"
-                        alt="user"
-                      />
-                      <p class="mr-5">Clifford Tindell</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">5</p>
-                      <img
-                              class="h-7 w-7 rounded-full mr-5"
-                              src="assets/images/user/user1.svg"
-                              alt="user"
-                      />
-                      <p class="mr-5">Katherine Reynolds</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">6</p>
-                      <img
-                              class="h-7 w-7 rounded-full mr-5"
-                              src="assets/images/user/user1.svg"
-                              alt="user"
-                      />
-                      <p class="mr-5">Katherine Reynolds</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">7</p>
-                      <img
-                              class="h-7 w-7 rounded-full mr-5"
-                              src="assets/images/user/user2.svg"
-                              alt="user"
-                      />
-                      <p class="mr-5">Hiba Shiekh</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">8</p>
-                      <img
-                              class="h-7 w-7 rounded-full mr-5"
-                              src="assets/images/user/user3.svg"
-                              alt="user"
-                      />
-                      <p class="mr-5">Isabela Meced</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">9</p>
-                      <img
-                              class="h-7 w-7 rounded-full mr-5"
-                              src="assets/images/user/user6.png"
-                              alt="user"
-                      />
-                      <p class="mr-5">Clifford Tindell</p>
-                    </li>
-                    <li class="flex items-center mt-2 px-5">
-                      <p class="mr-5">10</p>
-                      <img
-                              class="h-7 w-7 rounded-full mr-5"
-                              src="assets/images/user/user1.svg"
-                              alt="user"
-                      />
-                      <p class="mr-5">Katherine Reynolds</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-                      <!--three-->
-              <div class="stats-shadow text-xs bg-white h-max px-4 py-4 my-8 rounded-lg">
-                <div class="flex justify-between my-2">
-                  <div class="tooltip relative inline-block cursor-pointer">
-                    <img
-                            class="ml-1.5"
-                            src="/assets/images/info.svg"
-                            alt="info"
-                    />
+                <div class="flex text-xxs">
+                  <div class="flex items-center">
                     <span
-                            class="tooltipText mt-1.5 p-1 text-xxs leading-snug text-white bg-black invisible absolute w-72"
-                    >
-                      Total number of Invited users as well as the total number
-                      of invited corporate users who have accepted the invite
-                      and are considered active and finally, the total of users
-                      based on the active users who have logged in within the
-                      last 30 days.
-                    </span>
+                      class="h-2.5 w-2.5 mx-2 bg-accepted rounded-full"
+                    ></span>
+                    <span>Accepted</span>
                   </div>
-                  <div class="flex text-xxs">
-                    <div class="flex items-center">
-                      <span class="h-2.5 w-2.5 mx-2 bg-accepted rounded-full"></span>
-                      <span>Accepted</span>
-                    </div>
-                    <div class="flex items-center">
-                      <span class="h-2.5 w-2.5 mx-2 bg-active rounded-full"></span>
-                      <span>Active</span>
-                    </div>
+                  <div class="flex items-center">
+                    <span
+                      class="h-2.5 w-2.5 mx-2 bg-active rounded-full"
+                    ></span>
+                    <span>Active</span>
                   </div>
                 </div>
-                <img src="assets/images/progress/graph2.png" alt="graph" />
               </div>
+              <img src="assets/images/progress/graph2.png" alt="graph" />
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
 </html>

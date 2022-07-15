@@ -31,24 +31,13 @@ aside {
   border-radius: 0 6px 0 0;
   width: 19%;
 }
-.aside-list a:hover,.hide-btn a:hover {
+.aside-list a:hover,
+.hide-btn a:hover {
   background: linear-gradient(
     89.25deg,
     #7812c6 15.18%,
     rgba(93, 13, 153, 0.65) 100%
   );
-}
-.stats-section {
-  width: 81%;
-}
-.graph {
-  height: 23.25rem;
-}
-.stats-left {
-  width: 70%;
-}
-.stats-right {
-  width: 28%;
 }
 .date {
   background: #caa8f5;
@@ -73,35 +62,32 @@ thead tr th,
 tbody tr td {
   width: 7rem;
 }
-.tbody {
-  height: 18.75rem;
-}
-.user-info {
-  height: 14rem;
-}
 .tbody tr:nth-child(even) {
   background: rgba(239, 229, 249, 0.45);
 }
-.user-info ul li:nth-child(even) {
+.user-info li:nth-child(even) {
   background: rgba(239, 229, 249, 0.45);
 }
 .activeText {
   color: #690fad;
 }
-.bg-active{
-  background: #690FAD;
+.bg-active {
+  background: #690fad;
 }
 .acceptedText {
   color: #caa8f5;
 }
-.bg-accepted{
-  background: #CAA8F5;
+.bg-accepted {
+  background: #caa8f5;
 }
 .inviteText {
-  color: rgba(202, 168, 245, 0.4)
+  color: rgba(202, 168, 245, 0.4);
 }
-.bg-invite{
-  background: rgba(202, 168, 245, 0.4)
+.bg-invite {
+  background: rgba(202, 168, 245, 0.4);
+}
+.tooltipText {
+  left: -5px;
 }
 .tooltipText::after {
   content: "";
